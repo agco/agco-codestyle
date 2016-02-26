@@ -2,9 +2,6 @@
 
 *Our approach to JavaScript based off of [AirBnB's style guide](https://github.com/airbnb/javascript).*
 
-Other Style Guides
- - [ES5](es5/)
-
 ## Table of Contents
 
   1. [Types](#types)
@@ -1858,7 +1855,7 @@ Other Style Guides
     const foo = { clark: 'kent' };
     ```
 
-  - [18.12](#18.12) <a name='18.12'></a> Avoid having lines of code that are longer than 100 characters (including whitespace). eslint: [`max-len`](http://eslint.org/docs/rules/max-len.html) jscs: [`maximumLineLength`](http://jscs.info/rule/maximumLineLength)
+  - [18.12](#18.12) <a name='18.12'></a> Avoid having lines of code that are longer than 120 characters (including whitespace). eslint: [`max-len`](http://eslint.org/docs/rules/max-len.html) jscs: [`maximumLineLength`](http://jscs.info/rule/maximumLineLength)
 
     > Why? This ensures readability and maintainability.
 

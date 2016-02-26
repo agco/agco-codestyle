@@ -6,7 +6,7 @@ module.exports = {
   },
   'parserOptions': {
     'ecmaVersion': 6,
-    'sourceType': 'module',
+    'sourceType': 'script',
     'ecmaFeatures': {
       'jsx': true,
       'generators': false,
