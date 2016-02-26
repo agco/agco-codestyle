@@ -1,0 +1,27 @@
+{
+  "name": "agco-codestyle",
+  "version": "0.0.1",
+  "description": "AGCO's JavaScript code style guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agco/agco-codestyle.git"
+  },
+  "keywords": [
+    "AGCO",
+    "javascript",
+    "style guide",
+    "code style",
+    "es6",
+    "lint"
+  ],
+  "author": "Hendrik Beneke <hendrik.beneke@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agco/agco-codestyle/issues"
+  },
+  "homepage": "https://github.com/agco/agco-codestyle#readme"
+}

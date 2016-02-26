@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-agco",
+  "version": "0.0.1",
+  "description": "AGCO's ESLint config, following our style guide",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agco/agco-codestyle.git"
+  },
+  "keywords": [
+    "AGCO",
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "style guide"
+  ],
+  "author": "Hendrik Beneke <hendrik.beneke@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agco/agco-codestyle/issues"
+  },
+  "homepage": "https://github.com/agco/agco-codestyle#readme",
+  "devDependencies": {
+    "eslint": "^2.2.0"
+  }
+}
