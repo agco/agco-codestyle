@@ -743,20 +743,19 @@
     });
     ```
 
-  - [8.2](#8.2) <a name='8.2'></a> If the function body consists of a single expression, omit the braces and use the implicit return. Otherwise, keep the braces and use a `return` statement. eslint: [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens.html), [`arrow-body-style`](http://eslint.org/docs/rules/arrow-body-style.html) jscs:  [`disallowParenthesesAroundArrowParam`](http://jscs.info/rule/disallowParenthesesAroundArrowParam), [`requireShorthandArrowFunctions`](http://jscs.info/rule/requireShorthandArrowFunctions)
+  - [8.2](#8.2) <a name='8.2'></a> If the function body consists of a single expression, you can omit the braces and use the implicit return. Otherwise, keep the braces and use a `return` statement. This rule is not enforced and it should be used when it makes sense. eslint: [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens.html), [`arrow-body-style`](http://eslint.org/docs/rules/arrow-body-style.html) jscs:  [`disallowParenthesesAroundArrowParam`](http://jscs.info/rule/disallowParenthesesAroundArrowParam), [`requireShorthandArrowFunctions`](http://jscs.info/rule/requireShorthandArrowFunctions)
 
-    > Why? Syntactic sugar. It reads well when multiple functions are chained together.
+    > Why? Syntactic sugar. It reads well when multiple functions are chained together. 
 
-    > Why not? If you plan on returning an object.
+    > Why not? It might sometimes be more readable to use braces. Especially for nested functions.
 
     ```javascript
     // good
     [1, 2, 3].map(number => `A string containing the ${number}.`);
 
-    // bad
+    // good
     [1, 2, 3].map(number => {
-      const nextNumber = number + 1;
-      `A string containing the ${nextNumber}.`;
+      return `A string containing the ${number}.`;
     });
 
     // good
