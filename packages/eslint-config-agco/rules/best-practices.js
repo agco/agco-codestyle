@@ -108,8 +108,8 @@ module.exports = {
     // disallow unmodified conditions of loops
     // http://eslint.org/docs/rules/no-unmodified-loop-condition
     'no-unmodified-loop-condition': 0,
-    // disallow usage of expressions in statement position
-    'no-unused-expressions': 2,
+    // allow usage of expressions in statement position, needed for expect and should
+    'no-unused-expressions': 0,
     // disallow unused labels
     // http://eslint.org/docs/rules/no-unused-labels
     'no-unused-labels': 2,
