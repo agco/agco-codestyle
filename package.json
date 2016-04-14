@@ -16,9 +16,17 @@
     "style guide",
     "code style",
     "es6",
-    "lint"
+    "lint",
+    "react",
+    "jsx"
   ],
   "author": "Hendrik Beneke <hendrik.beneke@gmail.com>",
+  "contributors": [
+    {
+      "name": "Vinicius Linck",
+      "email": "vinnylinck@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/agco/agco-codestyle/issues"
