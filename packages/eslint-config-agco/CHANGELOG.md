@@ -1,3 +1,8 @@
+0.0.4 / 2016-04-18
+==================
+- Added lint support for React/JSX applications
+- Added initial rules for scss-lint in order to suport SASS codestyle
+
 0.0.3 / 2016-03-22
 ==================
 - Disable rule no-unused-expressions
