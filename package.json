@@ -1,6 +1,6 @@
 {
   "name": "agco-codestyle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "AGCO's JavaScript code style guide",
   "main": "index.js",
   "scripts": {

@@ -3,7 +3,9 @@
 *Our approach to JavaScript based off of [AirBnB's style guide](https://github.com/airbnb/javascript).*
 
 Other Style Guides
+ - [CSS & Sass](linters/css)
  - [React](linters/react/)
+
 
 ## Table of Contents
 

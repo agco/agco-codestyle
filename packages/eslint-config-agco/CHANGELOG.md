@@ -1,3 +1,7 @@
+0.0.5 / 2016-04-18
+==================
+- Fixed issue when resolving lint module names
+
 0.0.4 / 2016-04-18
 ==================
 - Added lint support for React/JSX applications
