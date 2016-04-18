@@ -2,6 +2,9 @@
 
 *Our approach to JavaScript based off of [AirBnB's style guide](https://github.com/airbnb/javascript).*
 
+Other Style Guides
+ - [React](linters/react/)
+
 ## Table of Contents
 
   1. [Types](#types)
@@ -745,7 +748,7 @@
 
   - [8.2](#8.2) <a name='8.2'></a> If the function body consists of a single expression, you can omit the braces and use the implicit return. Otherwise, keep the braces and use a `return` statement. This rule is not enforced and it should be used when it makes sense. eslint: [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens.html), [`arrow-body-style`](http://eslint.org/docs/rules/arrow-body-style.html) jscs:  [`disallowParenthesesAroundArrowParam`](http://jscs.info/rule/disallowParenthesesAroundArrowParam), [`requireShorthandArrowFunctions`](http://jscs.info/rule/requireShorthandArrowFunctions)
 
-    > Why? Syntactic sugar. It reads well when multiple functions are chained together. 
+    > Why? Syntactic sugar. It reads well when multiple functions are chained together.
 
     > Why not? It might sometimes be more readable to use braces. Especially for nested functions.
 

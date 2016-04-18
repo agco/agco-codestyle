@@ -1,6 +1,6 @@
 {
   "name": "agco-codestyle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AGCO's JavaScript code style guide",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,17 @@
     "style guide",
     "code style",
     "es6",
-    "lint"
+    "lint",
+    "react",
+    "jsx"
   ],
   "author": "Hendrik Beneke <hendrik.beneke@gmail.com>",
+  "contributors": [
+    {
+      "name": "Vinicius Linck",
+      "email": "vinnylinck@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/agco/agco-codestyle/issues"
