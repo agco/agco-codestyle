@@ -1,6 +1,6 @@
 {
   "name": "agco-codestyle",
-  "version": "0.0.4",
+  "version": "0.1.4",
   "description": "AGCO's JavaScript code style guide",
   "main": "index.js",
   "scripts": {
@@ -24,12 +24,17 @@
   "contributors": [
     {
       "name": "Vinicius Linck",
-      "email": "vinnylinck@gmail.com"
+      "email": "vinnylinck@gmail.com",
+      "name": "Henrique Hallmann",
+      "email": "hvhallmann@gmail.com"
     }
   ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/agco/agco-codestyle/issues"
   },
-  "homepage": "https://github.com/agco/agco-codestyle#readme"
+  "homepage": "https://github.com/agco/agco-codestyle#readme",
+  "devDependencies": {
+    "markdownlint-cli": "^0.3.1"
+  }
 }
