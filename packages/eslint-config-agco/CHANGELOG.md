@@ -1,3 +1,8 @@
+0.0.7 / 2017-09-07
+==================
+- Relaxed no-param-reassign
+- Upgraded packages
+
 0.0.5 / 2016-04-18
 ==================
 - Fixed issue when resolving lint module names

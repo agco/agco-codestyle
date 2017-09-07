@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-agco",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "AGCO's ESLint config, following our style guide",
   "main": "index.js",
   "scripts": {
@@ -30,16 +30,10 @@
   },
   "homepage": "https://github.com/agco/agco-codestyle#readme",
   "devDependencies": {
-    "eslint": "^2.2.0",
-    "eslint-plugin-import": "^1.4.0",
-    "eslint-plugin-jsx-a11y": "^0.6.2",
-    "eslint-plugin-react": "^4.3.0",
+    "eslint": "^4.6.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.3.0",
     "react": "^15.0.1"
-  },
-  "peerDependencies": {
-    "eslint": "^2.2.0",
-    "eslint-plugin-jsx-a11y": "^0.6.2",
-    "eslint-plugin-import": "^1.4.0",
-    "eslint-plugin-react": "^4.3.0"
   }
 }

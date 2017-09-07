@@ -86,9 +86,9 @@ module.exports = {
     // var foo = 'Copyright \251';
     'no-octal-escape': 2,
     // disallow reassignment of function parameters
-    // disallow parameter object manipulation
+    // allow parameter object manipulation
     // rule: http://eslint.org/docs/rules/no-param-reassign.html
-    'no-param-reassign': [2, { 'props': true }],
+    'no-param-reassign': [2, { 'props': false }],
     // disallow use of process.env
     'no-process-env': 0,
     // disallow usage of __proto__ property
