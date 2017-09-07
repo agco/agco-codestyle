@@ -2,8 +2,7 @@
 
 module.exports = {
   extends: [
-    'agco/configurations/es6',
-    'agco/configurations/react'
+    'agco/configurations/es6'
   ],
   rules: {}
 };

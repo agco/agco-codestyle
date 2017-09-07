@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-agco",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "AGCO's ESLint config, following our style guide",
   "main": "index.js",
   "scripts": {

@@ -1,3 +1,7 @@
+0.1.0 / 2017-09-07
+==================
+- Removed react from default. Needs to be extended explicitly now.
+
 0.0.7 / 2017-09-07
 ==================
 - Relaxed no-param-reassign
